@@ -1,0 +1,35 @@
+.js-add-btn {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  outline: 2px solid green;
+  padding: 10px;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  outline: 1px solid green;
+}
+
+.tags__btn {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: blue;
+  color: #fff;
+}
+
+.tags__btn--active {
+  color: black;
+  background-color: #fff;
+}
