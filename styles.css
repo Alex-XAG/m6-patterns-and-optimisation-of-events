@@ -75,3 +75,27 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.feed {
+  list-style: none;
+  width: 700px;
+}
+.feed__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feed img {
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 1000ms linear;
+  width: 640px;
+  height: 480px;
+  object-fit: cover;
+}
+.feed img.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
